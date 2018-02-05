@@ -40,7 +40,7 @@
     </div>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-inverse navbar-expand-md navbar-light ">
+    <nav class="navbar navbar-inverse navbar-expand-md navbar-light " id="div-start">
       <a class="navbar-brand medium-custom-font " href="#">
         Le'Afa Restaurant
       </a>
@@ -56,13 +56,13 @@
             <a class="nav-link small-custom-font" href="#div-menu">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link small-custom-font" href="#">Pricing</a>
+            <a class="nav-link small-custom-font" href="#div-team">Chefs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link small-custom-font" href="#">Ingredients</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link small-custom-font" href="#">Chefs</a>
+            <a class="nav-link small-custom-font" href="#">Pricing</a>
           </li>
           <!-- dropdown MENU
           <li class="nav-item dropdown">
@@ -79,9 +79,7 @@
     </nav>
   </header>
 
-
-
-  <div class="container" id="div-start">
+  <div class="container">
     <div class="jumbotron">
       <h2 class="display-3">Le'Afa</h2>
       <p class="lead">Sed scelerisque augue convallis convallis elementum. Donec accumsan neque hendrerit, scelerisque justo in, rutrum massa. Cras vel pulvinar justo, dapibus viverra ligula. Donec pharetra ipsum quis viverra convallis. Maecenas eleifend purus id neque
@@ -95,65 +93,114 @@
     </div>
   </div>
 
-<div container-fluid>
-  <div class="split-bar">
+
+  <div id="div-menu">
+    <div class="split-bar medium-custom-font">
+      Menu
+    </div>
   </div>
-</div>
+
+  <!-- SLIDER -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="main-dish">
+    <ol class="carousel-indicators">
+      <li data-target="#dish1" data-slide-to="0" class="active"></li>
+      <li data-target="#dish2" data-slide-to="1"></li>
+      <li data-target="#dish3" data-slide-to="2"></li>
+      <li data-target="#dish4" data-slide-to="3"></li>
+      <li data-target="#dish5" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img class="d-block w-100" src="images/carousel/pizza.jpg" alt="Slide 1">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-text">Pizza</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel/pasta.jpg" alt="Slide 2">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-text">Shrimps</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel/shrimps-pasta.jpg" alt="Slide 3">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-text">Pasta</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel/salad.jpg" alt="Slide 4">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-text">Salad</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel/fruit-salad.jpg" alt="Slide 5">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="carousel-text">Fruit salad</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+  </div>
 
 
-  <div class="container-fluid" id="div-menu">
+    <div class="split-bar medium-custom-font" id="div-team">
+      Our team
+    </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#dish1" data-slide-to="0" class="active"></li>
-        <li data-target="#dish2" data-slide-to="1"></li>
-        <li data-target="#dish3" data-slide-to="2"></li>
-        <li data-target="#dish4" data-slide-to="3"></li>
-        <li data-target="#dish5" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active ">
-          <img class="d-block w-100" src="images/carousel/pizza.jpg" alt="Slide 1">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="carousel-text">Pizza</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/carousel/pasta.jpg" alt="Slide 2">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="carousel-text">Shrimps</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/carousel/shrimps-pasta.jpg" alt="Slide 3">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="carousel-text">Pasta</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/carousel/salad.jpg" alt="Slide 4">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="carousel-text">Salad</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/carousel/fruit-salad.jpg" alt="Slide 5">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="carousel-text">Fruit salad</p>
+
+  <div class="container-fluid">
+    <div class="row" id="chef-div">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <img src="images/team/chef.jpg" alt="chef" class="img-fluid">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Chef</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+              <ul>
+                <li>
+                  Sed a lacus quis
+                </li>
+                <li>
+                  Ipsum fermentum
+                </li>
+                <li>
+                  Vestibulum eu maximus
+                </li>
+              </ul>
+
+
+            </p>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </a>
     </div>
-
+    <div class="row "id="team-div">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Team</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <img src="images/team/team.jpg" alt="chef" class="img-fluid">
+      </div>
+    </div>
   </div>
-
-
+  <div container-fluid>
+    <div class="split-bar">
+    </div>
+  </div>
 
 
   <!-- FOOTER -->
@@ -163,7 +210,9 @@
 
 
 <!-- SCRIPT -->
+
 <script>
+
 </script>
 
 </html>

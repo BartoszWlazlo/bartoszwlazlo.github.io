@@ -33,7 +33,7 @@
 }
 body {
   /* #fff9e2 */
-  background: white;
+  background: #fff9e2;
 }
 /*
 body {
@@ -102,18 +102,19 @@ body {
   margin: 40px 20px;
   text-align: center;
 }
+ul {
+  list-style-type: none;
+}
 .split-bar {
   background-color: #1b9300;
-  height: 25px;
+  min-height: 30px;
   width: 100%;
-  margin: 15px 0;
+  margin: 15px 0px;
+  padding: 5px;
 }
 .cover-background {
   height: 100%;
   width: 100%;
-}
-.div-menu {
-  height: 500px;
 }
 .carousel-text {
   font-family: 'Dancing Script', cursive;
@@ -121,4 +122,10 @@ body {
   text-align: center;
   color: white;
   background: transparent;
+}
+#chef-div {
+  background: #fef5d4;
+}
+#team-div {
+  background: #fef6ab;
 }
