@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1026px) {
+  .hide-on-small-screen {
+    display: none;
+  }
+}
 .parallax {
   /* The image used */
   background-image: url("../images/start-page.jpg");
@@ -17,15 +22,15 @@
 }
 .medium-custom-font {
   font-family: 'Dancing Script', cursive;
-  font-size: 250%;
+  font-size: 300%;
   text-align: center;
-  color: white;
+  color: black;
 }
 .small-custom-font {
   font-family: 'Dancing Script', cursive;
   font-size: 150%;
   text-align: center;
-  color: white;
+  color: black;
   -webkit-transition: color 1s, font-size 1s;
   -moz-transition: color 1s, font-size 1s;
   -o-transition: color 1s, font-size 1s;
@@ -33,72 +38,37 @@
 }
 body {
   /* #fff9e2 */
-  background: #fff9e2;
+  background: white;
 }
-/*
-body {
-  background: url(../images/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
 .navbar {
-  background-color: #1b9300;
+  background: #dbbf59;
 }
 .navbar .navbar-brand {
-  color: white;
+  color: black;
 }
 .navbar .navbar-brand:focus,
 .navbar .navbar-brand:hover {
-  color: black;
-}
-.navbar .navbar-text {
-  color: #ecf0f1;
+  color: #fff9e2;
 }
 .navbar .navbar-nav .nav-link {
-  color: #ecf0f1;
   border-radius: 0.25rem;
   margin: 0;
+  color: black;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):focus,
 .navbar .navbar-nav .nav-link:not(.disabled):hover {
-  color: black;
   font-size: 200%;
-}
-.navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item.active .nav-link:focus,
-.navbar .navbar-nav .nav-item.active .nav-link:hover,
-.navbar .navbar-nav .nav-item.show .nav-link,
-.navbar .navbar-nav .nav-item.show .nav-link:focus,
-.navbar .navbar-nav .nav-item.show .nav-link:hover {
-  color: #ffbbbc;
-  background-color: transparent;
-}
-.navbar .navbar-toggle {
-  border-color: #c0392b;
-}
-.navbar .navbar-toggle:focus,
-.navbar .navbar-toggle:hover {
-  background-color: #c0392b;
-}
-.navbar .navbar-toggle .navbar-toggler-icon {
-  color: white;
+  color: #fff9e2;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
   border-color: #ecf0f1;
 }
-.navbar .navbar-link {
-  color: #ecf0f1;
-}
-.navbar .navbar-link:hover {
-  color: #ffbbbc;
-}
 .jumbotron {
-  background-color: #1b9300;
+  background: transparent;
   font-family: 'Dancing Script', cursive;
-  color: white;
+  color: black;
+  font-size: 150%;
   margin: 40px 20px;
   text-align: center;
 }
@@ -106,10 +76,10 @@ ul {
   list-style-type: none;
 }
 .split-bar {
-  background-color: #1b9300;
+  background: #dbbf59;
   min-height: 30px;
   width: 100%;
-  margin: 15px 0px;
+  margin: 15px 0;
   padding: 5px;
 }
 .cover-background {
@@ -123,9 +93,19 @@ ul {
   color: white;
   background: transparent;
 }
+.carousel-item {
+  max-height: 500px;
+}
 #chef-div {
   background: #fef5d4;
 }
+#chef-div img {
+  border-radius: 50%;
+}
 #team-div {
   background: #fef6ab;
+  color: white;
+}
+#indi-bg {
+  background-color: black;
 }
