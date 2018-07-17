@@ -5,32 +5,6 @@ body{
   height: auto;
 }
 
-#landing-text{
-  display: flex;
-  flex: 0 1 40vw;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  text-align: center;
-  margin-top:10px;
-  margin-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 5px;
-}
-#landing-text-inner h1{
-  font-size: 2.5rem;
-}
-
-#landing-image{
-  height: 50vh;
-}
-
-#teaser-container img {
-  display: block;
-  width: 100%;
-}
-
 main{
   margin:auto;
   max-width: 900px;
@@ -38,7 +12,50 @@ main{
   -30px 0px 40px rgba(0,0,0,0.2);
 }
 
+#landing-text{
+  display: flex;
+  flex: 0 1 40vw;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  margin:auto;
+  padding: 5px;
+}
+
+#landing-text-inner h1{
+  font-size: 2.5rem;
+}
+
+#landing-text-inner h3{
+  font-size: 1.5rem;
+  color: #a7a8aa;
+}
+
+#landing-image{
+  height: 50vh;
+}
+
+.caption {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+#teaser-container img {
+  display: block;
+  width: 100%;
+}
+
+#header{
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1.5rem;
+}
+
 footer{
   max-width: 900px;
   margin:auto;
+  text-align: center;
+  padding: 1.5rem 0;
 }
