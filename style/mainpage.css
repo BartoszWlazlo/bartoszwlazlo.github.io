@@ -15,7 +15,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
   text-align: center;
   margin: auto;
   padding: 5px;
@@ -32,7 +31,6 @@ main {
 
 #landing-image {
   display: flex;
-  height: 50vh;
   background-color: black;
 }
 
@@ -53,20 +51,32 @@ main {
 }
 
 footer {
-  max-width: 900px;
+  max-width: 992px;
   margin: auto;
   text-align: center;
   padding: 1.5rem 0
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
 }
 
-/* Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) {
+
+}
+
+@media (max-width: 991.11px) {
+  #landing-text{
+    height: 50vh;
+  }
+  #landing-image{
+    height: 50vh;
+    background-color: green;
+  }
+}
+
+@media (min-width: 992px) {
   #landing-text{
     height: 100vh;
   }
@@ -75,11 +85,6 @@ footer {
     background-color: red;
   }
 }
-/* Large devices (desktops, 992px and up)*/
-
-@media (min-width: 992px) {
-}
-/*  Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
 }
