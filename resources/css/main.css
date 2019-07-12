@@ -1,0 +1,158 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.first-page {
+  height: 100vh;
+}
+
+.main-text {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(162, 111, 158);
+  padding: 20px 0;
+  text-shadow: 4px 4px 4px rgb(162, 111, 158, 0.2);
+  animation-duration: 1s;
+}
+
+.lead-box {
+  max-width: 550px;
+  border-radius: 40px;
+}
+
+.first-page .jumbotron {
+  background: linear-gradient(
+    to bottom right,
+    rgb(162, 111, 158) 20%,
+    rgb(52, 204, 198)
+  );
+  color: rgb(252, 252, 252);
+  box-shadow: 8px 8px 5px rgb(52, 204, 198, 0.2);
+  margin: 0px;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+}
+
+.jumbotron hr {
+  border-color: white;
+}
+
+.socials {
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.second-page {
+  height: 100vh;
+  background-color: rgb(52, 204, 198);
+  transform: rotate(-5deg);
+  border-radius: 40px;
+}
+
+.secondary-text {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(252, 252, 252);
+  padding: 20px 0;
+  text-shadow: 2px 2px 2px rgb(252, 252, 252, 0.2);
+}
+
+.third-page {
+  height: 100vh;
+  background-color: rgb(252, 252, 252);
+}
+
+.four-page {
+  height: 100vh;
+  background-color: rgb(162, 111, 158);
+  transform: rotate(5deg);
+  border-radius: 40px;
+}
+
+.spaced {
+  padding: 5%;
+}
+
+.rellax-obj-f1 {
+  position: absolute;
+  top: 12vh;
+  right: 60px;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(
+    to right top,
+    rgb(119, 111, 162) 20%,
+    rgb(52, 204, 198)
+  );
+  border-radius: 100%;
+  z-index: 1000;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+}
+
+.rellax-obj-f2 {
+  position: absolute;
+  top: 90vh;
+  right: 75%;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(
+    to bottom,
+    rgb(119, 111, 162) 20%,
+    rgb(52, 204, 198)
+  );
+  border-radius: 100%;
+  z-index: 1000;
+  animation-duration: 1s;
+  animation-delay: 0.6s;
+}
+
+.rellax-obj-f3 {
+  position: absolute;
+  top: 80vh;
+  right: 10%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    rgb(52, 204, 198) 50%,
+    rgb(252, 252, 252)
+  );
+  border-radius: 100%;
+  z-index: 1001;
+  animation-duration: 1s;
+  animation-delay: 1.4s;
+}
+
+.rellax-obj-f4 {
+  position: absolute;
+  top: 17vh;
+  right: 20%;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(
+    to bottom,
+    rgb(119, 111, 162),
+    rgb(52, 204, 198) 80%
+  );
+  border-radius: 100%;
+  z-index: 1000;
+  animation-duration: 1s;
+  animation-delay: 1.2s;
+}
+
+@media (max-width: 1170px) {
+  .rellax-obj-f4 {
+    display: none;
+  }
+  .rellax-obj-f3 {
+    top: 90vh;
+    width: 100px;
+    height: 100px;
+  }
+}
