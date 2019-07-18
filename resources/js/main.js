@@ -20,3 +20,13 @@ animateCSS(".rellax-obj-f4", "fadeInRight");
 var rellax = new Rellax(
   ".rellax-obj-f1,.rellax-obj-f2,.rellax-obj-f3,.rellax-obj-f4"
 );
+
+/*
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 800) {
+    $('.bottomMenu').fadeIn();
+  } else {
+    $('.bottomMenu').fadeOut();
+  }
+}); */

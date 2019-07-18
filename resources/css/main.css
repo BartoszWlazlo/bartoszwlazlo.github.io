@@ -4,6 +4,7 @@
 
 body {
   font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
 
 .first-page {
@@ -26,15 +27,17 @@ body {
 
 .first-page .jumbotron {
   background: linear-gradient(
-    to bottom right,
-    rgb(162, 111, 158) 20%,
-    rgb(52, 204, 198)
+    165deg,
+    rgb(52, 204, 198) 20%,
+    rgb(162, 111, 158)
   );
   color: rgb(252, 252, 252);
   box-shadow: 8px 8px 5px rgb(52, 204, 198, 0.2);
   margin: 0px;
   animation-duration: 1s;
   animation-delay: 0.3s;
+  padding: 20px;
+  align-content: center;
 }
 
 .jumbotron hr {
@@ -42,15 +45,25 @@ body {
 }
 
 .socials {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   cursor: pointer;
+  background-color: rgb(252, 252, 252);
+  border-radius: 40px;
+  padding: 20px;
+  margin: auto;
+  color: rgb(162, 111, 158);
+}
+
+.socials:hover {
+  color: rgb(52, 204, 198);
+  transition: color 0.15s linear;
 }
 
 .second-page {
   height: 100vh;
   background-color: rgb(52, 204, 198);
-  transform: rotate(-5deg);
+  transform: rotate(-2.5deg);
   border-radius: 40px;
 }
 
@@ -59,7 +72,6 @@ body {
   font-weight: 600;
   color: rgb(252, 252, 252);
   padding: 20px 0;
-  text-shadow: 2px 2px 2px rgb(252, 252, 252, 0.2);
 }
 
 .third-page {
@@ -70,7 +82,7 @@ body {
 .four-page {
   height: 100vh;
   background-color: rgb(162, 111, 158);
-  transform: rotate(5deg);
+  transform: rotate(2.5deg);
   border-radius: 40px;
 }
 
@@ -97,15 +109,11 @@ body {
 
 .rellax-obj-f2 {
   position: absolute;
-  top: 90vh;
+  top: 80vh;
   right: 75%;
-  width: 120px;
-  height: 120px;
-  background: linear-gradient(
-    to bottom,
-    rgb(119, 111, 162) 20%,
-    rgb(52, 204, 198)
-  );
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(to right, rgb(52, 204, 198), rgb(119, 111, 162));
   border-radius: 100%;
   z-index: 1000;
   animation-duration: 1s;
@@ -118,11 +126,7 @@ body {
   right: 10%;
   width: 200px;
   height: 200px;
-  background: linear-gradient(
-    to bottom,
-    rgb(52, 204, 198) 50%,
-    rgb(252, 252, 252)
-  );
+  background: linear-gradient(to bottom, rgb(252, 252, 252), rgb(52, 204, 198));
   border-radius: 100%;
   z-index: 1001;
   animation-duration: 1s;
@@ -152,7 +156,7 @@ body {
   }
   .rellax-obj-f3 {
     top: 90vh;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
 }
